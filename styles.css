@@ -32,6 +32,10 @@ button{
     background-color: #fff2ea;
 }
 
+img{
+    width: 90px;
+}
+
 /* les ecritures */
 h1{
     /* font-size: 60px; */
@@ -139,10 +143,7 @@ p{
 }
 
 @media screen and (min-width: 1200px) {
-    .sect_1{
-        display: flex;
-        justify-content: space-between;
-    }
+    
     .img_header{
         width: 50%;
     }
@@ -178,6 +179,7 @@ p{
     /* background-color: white; */
     /* background: linear-gradient( -90, orange, violet); */
     background: linear-gradient(to right, orange, violet);
+    height: 212px;
 }
 
 @media screen and (min-width: 1200px) {
@@ -191,7 +193,113 @@ p{
         margin-bottom: -50px !important;
     }
 
-    .circ1{
-        width: 25px;
+    .circ1 img{
+        width: 75px;
     }
+
+    .uix{
+        background-color: white;
+        border-radius: 25px;
+        width: 200px;
+        position: absolute;
+        display: flex;
+        /* display: none; */
+    } 
+
+    .best{
+        background-color: white;
+        border-radius: 25px;
+        width: 200px;
+        position: absolute;
+        /* display: none; */
+    } 
+
+    .shopify{
+        background-color: white;
+        border-radius: 45px;
+        width: 100px;
+        height: 180px;
+        position: absolute;
+        display: none;
+    } 
+    
+    
 }
+
+
+
+/* fin partie opaque */
+
+/* debut main */
+
+/* section 1 */
+.img1 img{
+    width: 500px;
+}
+
+.service{
+    display: flex;
+    padding-bottom: 15px;
+}
+@media screen and (min-width: 1200px) {
+
+    
+    .sect_1{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .services{
+        background-color: #fff2ea;
+        border-radius: 15px;
+        width: 40%;
+        padding: 45px;
+    }
+
+    .service{
+        display: flex;
+        background-color: white;
+        border-radius: 15px;
+        width: 90%;
+        padding: 25px;
+        margin-top: 15px;
+        border: none;
+    }
+
+    .service:hover{
+    border-left: 10px solid pink;
+    border-top: 10px solid violet;
+    border-radius: 10px solid orange;
+    transition-duration: 0.3s;
+    }
+
+    .txt-s{
+        padding-left: 10px;
+    }
+
+    .list{
+        background-color: #f0fbf2;
+    }
+
+    .projects{
+        background-color: tomato;
+        padding: 25px 45px;
+    }
+
+    .projects h1{
+        padding-left: 25%;
+        padding-bottom: 50px;
+    }
+    .pres_pro{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .img1 img{
+        width: 500px;
+    }
+
+
+}
+
+
+
