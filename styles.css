@@ -32,10 +32,20 @@ button{
     background-color: #fff2ea;
 }
 
+/* les ecritures */
 h1{
     /* font-size: 60px; */
     font-size: 500%;
+    color: #28304c;
 }
+
+p{
+    font-size: 15px;
+    color: #c1bec0;
+    padding-bottom: 5%;
+}
+
+/* fin ecritures */
 .container {
     margin: 0 auto;
     padding: 15px;
@@ -96,5 +106,92 @@ h1{
         display: flex;
         justify-content: space-evenly;
         width: 45%;
+    }
+}
+
+/* fin barre menu */
+
+/* debut section 1(titre/texte/image) */
+
+ 
+
+
+/*  
+.header_title{
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+.header_title p{
+    margin-top: 45px;
+}
+.button_title{
+    font-size: 27px;
+    margin-bottom: 65px;
+} */
+
+
+.img_header{
+    width: 100%;
+}
+
+.img_header img {
+    width: 100%;
+}
+
+@media screen and (min-width: 1200px) {
+    .sect_1{
+        display: flex;
+        justify-content: space-between;
+    }
+    .img_header{
+        width: 50%;
+    }
+    .img_header img {
+        width: 900px;
+    }
+    .smiley{
+        width: 75px;
+        margin-top: 75px;
+    }
+    
+    .header_title{
+        margin-top: 200px;
+        margin-bottom: 100px;
+    }
+    .header_title p{
+        margin-top: 45px;
+    }
+    .button_title{
+        font-size: 27px;
+        margin-bottom: 65px;
+    }
+
+}
+.smiley{
+    width: 75px;
+    margin-top: 75px;
+}
+
+/* partie opaque */
+
+.transparent{
+    /* background-color: white; */
+    /* background: linear-gradient( -90, orange, violet); */
+    background: linear-gradient(to right, orange, violet);
+}
+
+@media screen and (min-width: 1200px) {
+    .circles{
+        display: flex;
+        width: 30%;
+        justify-content: space-between;
+    }
+
+    .transparent p {
+        margin-bottom: -50px !important;
+    }
+
+    .circ1{
+        width: 25px;
     }
 }
